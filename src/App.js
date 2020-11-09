@@ -1,7 +1,7 @@
 import React from 'react'
 import { Provider } from 'react-redux'
 import store from './redux/store'
-import { BrowserRouter as Router, Switch, Route} from 'react-router-dom'
+import { HashRouter as Router, Switch, Route} from 'react-router-dom'
 import HomePage from './components/HomePage/HomePage'
 import SportsChat from './components/route/Sports/SportsChat'
 import GamesChat from './components/route/Games/GamesChat'
